@@ -24,6 +24,9 @@
 #define LCD_SERIAL_PORT 3
 #define I3MEGA_HAS_BLTOUCH
 #define ANYCUBIC_LCD_I3MEGA
+#define TRIGORILLA_MAPPING_I3MEGA
+#define ANYCUBIC_I3_MEGA_S
+
 /**
  * Configuration.h
  *
