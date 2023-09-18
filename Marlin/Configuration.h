@@ -23,7 +23,6 @@
 
 #define I3MEGA_HAS_BLTOUCH
 #define ANYCUBIC_LCD_I3MEGA
-#define ANYCUBIC_I3_MEGA_S
 //#define I3MEGA_PRO_STOCK
 #define I3MEGA_HAS_TMC2208
 
@@ -151,7 +150,7 @@
 /**
  * Some Anycubic machines have Z1 and Z2 swapped to save on wiring.
  */
-//#define SWAP_Z_MOTORS
+#define SWAP_Z_MOTORS
 
 // Name displayed in the LCD "Ready" message and Info menu
 //#define CUSTOM_MACHINE_NAME "3D Printer"
@@ -199,7 +198,7 @@
 //#define W_DRIVER_TYPE  ELSE_DRIVER_TYPE
 //#define X2_DRIVER_TYPE ELSE_DRIVER_TYPE
 //#define Y2_DRIVER_TYPE ELSE_DRIVER_TYPE
-#define Z2_DRIVER_TYPE ELSE_DRIVER_TYPE
+#define Z2_DRIVER_TYPE Z_DRIVER_TYPE
 //#define Z3_DRIVER_TYPE ELSE_DRIVER_TYPE
 //#define Z4_DRIVER_TYPE ELSE_DRIVER_TYPE
 #define E0_DRIVER_TYPE ELSE_DRIVER_TYPE
@@ -1223,7 +1222,7 @@
 #define V_MAX_ENDSTOP_HIT_STATE HIGH
 #define W_MIN_ENDSTOP_HIT_STATE HIGH
 #define W_MAX_ENDSTOP_HIT_STATE HIGH
-#define Z_MIN_PROBE_ENDSTOP_HIT_STATE LOW
+#define Z_MIN_PROBE_ENDSTOP_HIT_STATE HIGH
 
 // Enable this feature if all enabled endstop pins are interrupt-capable.
 // This will remove the need to poll the interrupt pins, saving many CPU cycles.

@@ -134,18 +134,6 @@
     #define OUTAGECON_PIN                     58
   #endif
 
-  #if ENABLED(ANYCUBIC_I3_MEGA_S)
-    #define Z_STEP_PIN                        36
-    #define Z_DIR_PIN                         34
-    #define Z_ENABLE_PIN                      30
-    #define Z_CS_PIN                          44
-
-    #define Z2_STEP_PIN                       46
-    #define Z2_DIR_PIN                        48
-    #define Z2_ENABLE_PIN                     62
-    #define Z2_CS_PIN                         40
-  #endif
-
   #if ENABLED(TRIGORILLA_MAPPING_CHIRON)
     #if ENABLED(ANYCUBIC_LCD_CHIRON) && !defined(FIL_RUNOUT_PIN)
       #define FIL_RUNOUT_PIN         EXP2_05_PIN  // Chiron Standard Adapter
