@@ -3250,7 +3250,7 @@
 #define ANYCUBIC_LCD_I3MEGA
 #if ENABLED(ANYCUBIC_LCD_I3MEGA)
   #define LCD_SERIAL_PORT 3
-  #define ANYCUBIC_LCD_DEBUG
+  //#define ANYCUBIC_LCD_DEBUG
   #if ENABLED(I3MEGA_PRO_STOCK)
     #define ANYCUBIC_LCD_GCODE_EXT  // Mega Pro contains a DGUS clone TFT that requires .gcode extension
   #endif
